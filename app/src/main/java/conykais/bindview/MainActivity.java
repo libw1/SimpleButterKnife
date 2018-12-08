@@ -25,12 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         BindViewKnife.bind(this);
         textView.setText("hello!");
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this,"onClick " , Toast.LENGTH_SHORT).show();
-//            }
-//        });
     }
 
     @OnClick({R.id.button, R.id.text})
